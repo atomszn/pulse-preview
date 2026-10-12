@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      /* Pre-paint reveal gate. Add `js` always, and `reveal-on` only when we
+         can actually run the scroll reveal (motion allowed + IntersectionObserver).
+         The hidden start-state CSS requires BOTH classes, so if this check fails
+         (or JS is off) content stays visible instead of being permanently hidden. */
+      (function () {
+        /* No-flash theme: set data-theme on <html> BEFORE first paint, from
+           the saved choice, else the system color-scheme preference. */
+        try {
+          var t = localStorage.getItem('psnap-theme');
+          if (t !== 'dark' && t !== 'light') {
+            t = (window.matchMedia &&
+                 window.matchMedia('(prefers-color-scheme: dark)').matches)
+              ? 'dark' : 'light';
+          }
+          if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+        } catch (e) {}
+        var c = ' js';
+        try {
+          var ok =
+            'IntersectionObserver' in window &&
+            !(window.matchMedia &&
+              window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+          if (ok) c += ' reveal-on';
+        } catch (e) {}
+        document.documentElement.className += c;
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f6efe1" />
+
+    <title>Notes — ProductSnap Studio</title>
+    <meta name="description" content="How a thing goes from a messy thought to something real — the inputs, the questions, the experiments, and what actually shipped. The thinking behind ProductSnap Studio." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Notes — ProductSnap Studio" />
+    <meta property="og:description" content="How a thing goes from a messy thought to something real — the inputs, the questions, the experiments, and what actually shipped. The thinking behind ProductSnap Studio." />
+    <meta property="og:site_name" content="ProductSnap Studio" />
+    <meta property="og:url" content="https://productsnap.studio/notes" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="https://productsnap.studio/assets/og-default.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Notes — how a thing goes from a messy thought to something real" />
+    <meta name="twitter:image" content="https://productsnap.studio/assets/og-default.png" />
+    <meta name="twitter:title" content="Notes — ProductSnap Studio" />
+    <meta name="twitter:description" content="How a thing goes from a messy thought to something real — the inputs, the questions, the experiments, and what actually shipped. The thinking behind ProductSnap Studio." />
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="canonical" href="https://productsnap.studio/notes" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Kalam:wght@400;700&family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="application/ld+json">
+{
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "CreativeWork",
+                  "@id": "https://productsnap.studio/notes#notes",
+                  "name": "Notes — ProductSnap Studio",
+                  "url": "https://productsnap.studio/notes",
+                  "description": "How a thing goes from a messy thought to something real — inputs, questions, experiments, and what shipped.",
+                  "creator": {
+                        "@type": "Person",
+                        "@id": "https://productsnap.studio/#jeevan"
+                  },
+                  "isPartOf": {
+                        "@id": "https://productsnap.studio/#website"
+                  }
+            }
+      ]
+}
+    </script>
+  </head>
+  <body class="page-notes">
+    <!-- Paper texture background -->
+    <div class="paper" aria-hidden="true"></div>
+    <div class="paper-dots" aria-hidden="true"></div>
+
+    <!-- Unified top nav — identical chrome on every page (five-route arch) -->
+    <header class="topnav-wrap">
+      <div class="topnav">
+      <a href="index.html" class="brand" aria-label="ProductSnap Studio home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6" y="7" width="22" height="26" rx="2.5" />
+            <path d="M6 13 H28 M6 19 H28 M6 25 H28" stroke-opacity="0.35" stroke-width="1.4" />
+            <circle cx="6" cy="11" r="1.1" />
+            <circle cx="6" cy="17" r="1.1" />
+            <circle cx="6" cy="23" r="1.1" />
+            <circle cx="6" cy="29" r="1.1" />
+            <path d="M30 17 a5 5 0 1 1 -3 9 v3 h3 v-3 a5 5 0 0 0 0 -9 z" fill="#fff7df" />
+            <path d="M27 31 h3" stroke-width="2" />
+            <path d="M35 14 l2 -2 M35 22 l2 2 M37 18 h2" stroke-opacity="0.6" stroke-width="1.6" />
+          </svg>
+        </span>
+        <span class="brand-word">
+          <span class="brand-word-1">ProductSnap</span>
+          <span class="brand-word-2">Studio</span>
+        </span>
+      </a>
+
+      <!-- Desktop nav (>760px) -->
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="sketches.html">Sketches</a>
+        <a href="app.html">App</a>
+        <a href="pulse.html" title="The sketch library">Pulse</a>
+        <a href="notes.html" class="is-active" aria-current="page">Notes</a>
+      </nav>
+
+      <button class="theme-toggle theme-toggle-desktop" type="button"
+              aria-pressed="false" aria-label="Switch to Late Night Mode.">
+        <svg class="tt-icon tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="tt-icon tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        <span class="tt-label">Late Night Mode</span>
+      </button>
+
+      <button class="theme-toggle theme-toggle-compact" type="button"
+              aria-pressed="false" aria-label="Switch to Late Night Mode.">
+        <svg class="tt-icon tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="tt-icon tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        <span class="tt-label">Late Night Mode</span>
+      </button>
+
+      <!-- Mobile menu button (<=760px) -->
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="nav-panel">
+        <span class="nav-toggle-bars" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+
+      <!-- Mobile nav panel (<=760px) -->
+      <nav class="nav-panel" id="nav-panel" aria-label="Mobile" hidden>
+        <button class="theme-toggle theme-toggle-panel" type="button"
+              aria-pressed="false" aria-label="Switch to Late Night Mode.">
+          <svg class="tt-icon tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="tt-icon tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+          <span class="tt-label">Late Night Mode</span>
+        </button>
+        <a href="index.html">Home</a>
+        <a href="sketches.html">Sketches</a>
+        <a href="app.html">App</a>
+        <a href="pulse.html" class="nav-pulse">Pulse<span class="nav-sub" aria-hidden="true">the sketch library</span></a>
+        <a href="notes.html" class="is-active" aria-current="page">Notes</a>
+      </nav>
+    </div>
+    </header>
+
+    <main class="notes-page">
+      <!-- ===== Intro: short, sets the mood, then gets out of the way ===== -->
+      <section class="section notes-intro">
+        <div class="notes-intro-inner">
+          <span class="kicker">Chapter 05 · the messy part</span>
+          <h1 class="notes-headline">You opened my <span class="hl-circle">product notebook</span>.</h1>
+          <p class="notes-deck">This is where ideas show up messy and slowly turn into something real. Signals in, a lot of arguing in the middle, a few things that survive.</p>
+          <p class="notes-rail pencil-note"><span class="caret">↳</span> Follow the arrows. It's not tidy. That's the honest part.</p>
+        </div>
+      </section>
+
+      <!-- ===== THE NOTEBOOK CANVAS ===== -->
+      <section class="notes-canvas-section" aria-label="A product thinking map, from signals to what shipped">
+        <div class="notebook-canvas">
+
+          <!-- ───────── ZONE 1 · INPUTS (left) ───────── -->
+          <div class="zone zone-inputs" id="inputs">
+            <div class="zone-label"><span class="zone-step">1</span> Signals coming in</div>
+            <p class="zone-sub pencil-note">The pile. Most of it goes nowhere.</p>
+
+            <div class="scrap-pile">
+              <div class="scrap scrap-paper" style="--rot:-2.5deg;">A market headline that won't leave me alone</div>
+              <div class="scrap scrap-paper" style="--rot:1.8deg;">A podcast I rewound three times</div>
+              <div class="scrap scrap-paper" style="--rot:-1.2deg;">A book that broke an assumption</div>
+              <div class="scrap scrap-paper" style="--rot:2.4deg;">A tool that annoyed me <em>just</em> enough</div>
+              <div class="scrap scrap-paper scrap-struck" style="--rot:-1.6deg;">"everyone needs another AI app" <span class="margin-x" aria-hidden="true">— no they don't</span></div>
+              <div class="scrap scrap-paper" style="--rot:-2deg;">"wait… why does it even work this way?"</div>
+              <div class="scrap scrap-paper" style="--rot:1.4deg;">An AI experiment at 1&nbsp;AM</div>
+            </div>
+
+            <!-- tiny hand-drawn funnel: lots in, little out -->
+            <svg class="doodle doodle-funnel" viewBox="0 0 120 86" fill="none" aria-hidden="true">
+              <path d="M6 10 L114 10 L72 52 L72 80 L48 80 L48 52 Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+              <path d="M16 22 L104 22" stroke="currentColor" stroke-width="1.4" stroke-dasharray="2 6" stroke-linecap="round"/>
+              <path d="M58 80 q2 9 2 9 M62 80 q-2 9 -2 9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+
+            <div class="sticky sticky-yellow note-tilt" style="--rot:-4deg;">
+              <span class="sticky-pin"></span>interesting ≠ useful
+            </div>
+            <p class="ink-note ink-1">save the thought before it disappears</p>
+            <p class="ink-note ink-tiny ink-1b">most of these never make it past this column. that's fine.</p>
+          </div>
+
+          <!-- arrow: inputs → middle (desktop only, decorative) -->
+          <svg class="flow-arrow arrow-a" viewBox="0 0 120 60" fill="none" aria-hidden="true">
+            <path d="M4 30 C 45 12, 70 48, 112 30" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 9"/>
+            <path d="M101 21 L 114 30 L 100 38" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+
+          <!-- ───────── ZONE 2 · THE MESSY MIDDLE (center, biggest) ───────── -->
+          <div class="zone zone-middle" id="messy-middle">
+            <div class="zone-label"><span class="zone-step">2</span> The messy middle</div>
+            <p class="zone-sub pencil-note">Where most ideas get argued to death. A few earn their keep.</p>
+
+            <div class="middle-wall">
+              <div class="sticky sticky-pink note-q" style="--rot:-3deg;">
+                <span class="sticky-pin"></span>Cool idea. But would anyone actually <em>use</em> it?
+              </div>
+              <div class="sticky sticky-teal note-q" style="--rot:2.2deg;">
+                <span class="sticky-pin"></span>Can this be simpler? <br/>(It can. It always can.)
+              </div>
+              <div class="sticky sticky-purple note-q" style="--rot:-1.6deg;">
+                <span class="sticky-pin"></span>AI says yes. <br/>Now I need to know if humans agree.
+              </div>
+              <div class="sticky sticky-yellow note-q" style="--rot:-2.4deg;">
+                <span class="sticky-pin"></span>Looked brilliant at midnight. Needed coffee to survive morning.
+              </div>
+            </div>
+
+            <!-- a rough flow diagram: how a signal becomes a product question -->
+            <div class="mini-diagram" role="img" aria-label="Rough sketch: a signal leads to a question, leads to a product idea — sometimes back to the question.">
+              <svg class="diagram-svg" viewBox="0 0 360 96" fill="none" aria-hidden="true">
+                <!-- three rough boxes -->
+                <rect x="6"   y="30" width="86" height="40" rx="6" stroke="currentColor" stroke-width="2"/>
+                <rect x="137" y="30" width="86" height="40" rx="6" stroke="currentColor" stroke-width="2"/>
+                <rect x="268" y="30" width="86" height="40" rx="6" stroke="currentColor" stroke-width="2"/>
+                <!-- forward dashed arrows -->
+                <path d="M94 50 L131 50" stroke="currentColor" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+                <path d="M124 44 L133 50 L124 56" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M225 50 L262 50" stroke="currentColor" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+                <path d="M255 44 L264 50 L255 56" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <!-- the honest part: a loop back from idea to question -->
+                <path d="M311 70 C 311 92, 180 96, 180 74" stroke="var(--pink-stroke, #e85aa3)" stroke-width="2" stroke-dasharray="3 6" stroke-linecap="round"/>
+                <path d="M173 80 L181 73 L188 80" stroke="var(--pink-stroke, #e85aa3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div class="diagram-labels">
+                <span class="dl">signal</span>
+                <span class="dl">a real question</span>
+                <span class="dl">product idea</span>
+              </div>
+              <p class="ink-note ink-tiny diagram-note">…then usually right back to the question. (loop ~12 times.)</p>
+            </div>
+
+            <!-- an experiment that changed direction: tried -> struck -> what it became -->
+            <div class="experiment">
+              <span class="exp-tag">an experiment that changed direction</span>
+              <p class="exp-tried"><span class="exp-lead">tried:</span> a little "watch out for this" box on every flashcard</p>
+              <span class="uturn" aria-hidden="true">
+                <svg viewBox="0 0 64 54" fill="none">
+                  <path d="M14 6 C 56 4, 58 40, 20 44" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 7"/>
+                  <path d="M28 36 L18 45 L26 53" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <p class="exp-killed"><span class="exp-lead struck-lead">killed it.</span> the card <em>is</em> the watch-out. one card, one complete thought.</p>
+            </div>
+
+            <!-- the assumption that flipped -->
+            <div class="iteration-loop">
+              <p class="assumption struck">people will read both sides of the flashcard</p>
+              <span class="loop-arrow" aria-hidden="true">↻</span>
+              <p class="assumption-fix">turns out they won't. so: no scrolling, no second side, no filler.</p>
+            </div>
+
+            <p class="ink-note ink-2">if I have to explain it three times, the design is wrong</p>
+
+            <!-- ATOM — quietly here, in the experiments mess, where the late nights happened -->
+            <figure class="atom-corner atom-inline">
+              <img src="assets/atom.png" alt="Atom, a black Labrador, resting among sketches, a notebook, a coffee mug and a pencil during a late-night build" width="760" height="456" loading="lazy" decoding="async" />
+              <figcaption class="atom-note pencil-note">
+                <span class="caret">↳</span> My human changed this idea twelve times tonight. I don't get it. I'm still here.
+                <span class="atom-sub">— Atom, chief morale officer</span>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- arrow: middle → survived (desktop only, decorative) -->
+          <svg class="flow-arrow arrow-b" viewBox="0 0 120 60" fill="none" aria-hidden="true">
+            <path d="M4 30 C 45 48, 70 12, 112 30" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 9"/>
+            <path d="M101 21 L 114 30 L 100 38" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+
+          <!-- ───────── ZONE 3 · WHAT SURVIVED (right) ───────── -->
+          <div class="zone zone-survived" id="survived">
+            <div class="zone-label"><span class="zone-step">3</span> What survived</div>
+            <p class="zone-sub pencil-note">Pinned up because it earned it.</p>
+
+            <div class="pinned-cards">
+              <a class="pin-card" href="app.html">
+                <span class="sticky-pin"></span>
+                <h3 class="pin-title">ProductSnap App</h3>
+                <ul class="pin-scrawl">
+                  <li>flashcards that don't scroll</li>
+                  <li>Product Gym</li>
+                  <li>product stories</li>
+                </ul>
+                <span class="pin-aside">(this one took 9 builds)</span>
+                <span class="pin-go">live on App Store &amp; Google Play →</span>
+              </a>
+
+              <a class="pin-card" href="pulse.html">
+                <span class="sticky-pin"></span>
+                <h3 class="pin-title">Pulse</h3>
+                <ul class="pin-scrawl">
+                  <li>signals → interpretation</li>
+                  <li>→ one product question</li>
+                </ul>
+                <span class="pin-aside">(not financial advice. on purpose.)</span>
+                <span class="pin-go">see the latest read →</span>
+              </a>
+
+              <a class="pin-card" href="sketches.html">
+                <span class="sticky-pin"></span>
+                <h3 class="pin-title">Sketches</h3>
+                <ul class="pin-scrawl">
+                  <li>rough drawings</li>
+                  <li>→ clearer ideas</li>
+                </ul>
+                <span class="pin-go">flip through them →</span>
+              </a>
+
+              <div class="pin-card pin-card-flat">
+                <span class="sticky-pin"></span>
+                <h3 class="pin-title">AI workflows</h3>
+                <ul class="pin-scrawl">
+                  <li>human judgment</li>
+                  <li>+ AI speed</li>
+                  <li>built in plain English</li>
+                </ul>
+                <span class="pin-aside">(the AI is fast. the taste is mine.)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ───────── PARKING LOT (spans, lower) ───────── -->
+          <div class="zone zone-parked" id="parked">
+            <div class="zone-label zone-label-sm">Parked for later <span class="park-emoji" aria-hidden="true">🅿</span></div>
+            <p class="zone-sub pencil-note">Not dead. Just not yet.</p>
+            <ul class="park-list">
+              <li class="park-tag" style="--rot:-1.5deg;">fully autonomous Pulse publishing</li>
+              <li class="park-tag" style="--rot:1.2deg;">an AI product coach inside the app</li>
+              <li class="park-tag" style="--rot:-0.8deg;">agent-readable portfolios</li>
+            </ul>
+            <p class="ink-note ink-3">parking ≠ giving up. it's waiting for the right reason.</p>
+          </div>
+        </div>
+
+        <nav class="chapter-turn is-loop" aria-label="Start over">
+          <div class="chapter-turn-inner">
+            <span class="chapter-eyebrow">end of the notebook
+              <span class="chapter-pips" aria-hidden="true">
+                <span class="pip done"></span><span class="pip done"></span><span class="pip done"></span><span class="pip done"></span><span class="pip now"></span>
+              </span>
+            </span>
+            <a href="index.html" class="chapter-turn-link">↳ back to the beginning — start the notebook over&nbsp;<span class="ct-arrow" aria-hidden="true">→</span></a>
+            <span class="chapter-whisper">every product starts as noise. read it again.</span>
+          </div>
+        </nav>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <div class="foot-inner">
+        <span class="foot-brand">
+          <svg width="20" height="20" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="6" y="7" width="22" height="26" rx="2.5"/>
+            <circle cx="6" cy="14" r="1"/>
+            <circle cx="6" cy="20" r="1"/>
+            <circle cx="6" cy="26" r="1"/>
+            <path d="M30 17 a5 5 0 1 1 -3 9 v3 h3 v-3 a5 5 0 0 0 0 -9 z"/>
+          </svg>
+          ProductSnap Studio
+        </span>
+        <span class="foot-meta">a living notebook</span>
+        <span class="foot-hand">built by Jeevan · made by hand, mostly</span>
+      </div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/reveal.js"></script>
+    <!-- Privacy-friendly analytics (Umami) — cookieless, deferred, no-op until configured. See README. -->
+    <script src="js/analytics.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      /* Pre-paint reveal gate. Add `js` always, and `reveal-on` only when we
+         can actually run the scroll reveal (motion allowed + IntersectionObserver).
+         The hidden start-state CSS requires BOTH classes, so if this check fails
+         (or JS is off) content stays visible instead of being permanently hidden. */
+      (function () {
+        /* No-flash theme: set data-theme on <html> BEFORE first paint, from
+           the saved choice, else the system color-scheme preference. */
+        try {
+          var t = localStorage.getItem('psnap-theme');
+          if (t !== 'dark' && t !== 'light') {
+            /* Pulse: ambient day/night. No saved choice → follow the clock
+               (dark 19:00–07:00). The nav toggle still overrides. */
+            var h = new Date().getHours();
+            t = (h >= 19 || h < 7) ? 'dark' : 'light';
+          }
+          if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+        } catch (e) {}
+        var c = ' js';
+        try {
+          var ok =
+            'IntersectionObserver' in window &&
+            !(window.matchMedia &&
+              window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+          if (ok) c += ' reveal-on';
+        } catch (e) {}
+        document.documentElement.className += c;
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f6efe1" />
+
+    <title>Pulse — ProductSnap Studio</title>
+    <meta
+      name="description"
+      content="A quiet library of hand-drawn explainers on AI, tech and the economy. Open a book, turn the pages, read the 60-second version."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pulse — ProductSnap Studio" />
+    <meta
+      property="og:description"
+      content="A quiet library of hand-drawn explainers on AI, tech and the economy. Open a book, turn the pages, read the 60-second version."
+    />
+    <meta property="og:site_name" content="ProductSnap Studio" />
+    <meta property="og:url" content="https://productsnap.studio/pulse" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="https://productsnap.studio/assets/og-default.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Pulse — a library of sketch explainers" />
+    <meta name="twitter:image" content="https://productsnap.studio/assets/og-default.png" />
+    <meta name="twitter:title" content="Pulse — ProductSnap Studio" />
+    <meta name="twitter:description" content="A quiet library of hand-drawn explainers on AI, tech and the economy. Open a book, turn the pages, read the 60-second version." />
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="canonical" href="https://productsnap.studio/pulse" />
+
+    <link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pulse.css" />
+    <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Pulse — the sketch library","url":"https://productsnap.studio/pulse","description":"A quiet library of hand-drawn explainers on AI, tech and the economy. Open a book, turn the pages, read the 60-second version.","isPartOf":{"@type":"WebSite","name":"ProductSnap Studio","url":"https://productsnap.studio/"}}
+    </script>
+  </head>
+  <body class="page-pulse">
+    <!-- Paper texture background (matches index) -->
+    <div class="paper" aria-hidden="true"></div>
+    <div class="paper-dots" aria-hidden="true"></div>
+
+    <!-- Top nav (matches index) -->
+    <!-- Unified top nav — identical chrome on every page (five-route arch) -->
+    <header class="topnav-wrap">
+      <div class="topnav">
+      <a href="index.html" class="brand" aria-label="ProductSnap Studio home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6" y="7" width="22" height="26" rx="2.5" />
+            <path d="M6 13 H28 M6 19 H28 M6 25 H28" stroke-opacity="0.35" stroke-width="1.4" />
+            <circle cx="6" cy="11" r="1.1" />
+            <circle cx="6" cy="17" r="1.1" />
+            <circle cx="6" cy="23" r="1.1" />
+            <circle cx="6" cy="29" r="1.1" />
+            <path d="M30 17 a5 5 0 1 1 -3 9 v3 h3 v-3 a5 5 0 0 0 0 -9 z" fill="#fff7df" />
+            <path d="M27 31 h3" stroke-width="2" />
+            <path d="M35 14 l2 -2 M35 22 l2 2 M37 18 h2" stroke-opacity="0.6" stroke-width="1.6" />
+          </svg>
+        </span>
+        <span class="brand-word">
+          <span class="brand-word-1">ProductSnap</span>
+          <span class="brand-word-2">Studio</span>
+        </span>
+      </a>
+
+      <!-- Desktop nav (>760px) -->
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="sketches.html">Sketches</a>
+        <a href="app.html">App</a>
+        <a href="pulse.html" title="The sketch library" class="is-active" aria-current="page">Pulse</a>
+        <a href="notes.html">Notes</a>
+      </nav>
+
+      <button class="theme-toggle theme-toggle-desktop" type="button"
+              aria-pressed="false" aria-label="Switch to Late Night Mode.">
+        <svg class="tt-icon tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="tt-icon tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        <span class="tt-label">Late Night Mode</span>
+      </button>
+
+      <button class="theme-toggle theme-toggle-compact" type="button"
+              aria-pressed="false" aria-label="Switch to Late Night Mode.">
+        <svg class="tt-icon tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="tt-icon tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        <span class="tt-label">Late Night Mode</span>
+      </button>
+
+      <!-- Mobile menu button (<=760px) -->
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="nav-panel">
+        <span class="nav-toggle-bars" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+
+      <!-- Mobile nav panel (<=760px) -->
+      <nav class="nav-panel" id="nav-panel" aria-label="Mobile" hidden>
+        <button class="theme-toggle theme-toggle-panel" type="button"
+              aria-pressed="false" aria-label="Switch to Late Night Mode.">
+          <svg class="tt-icon tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="tt-icon tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+          <span class="tt-label">Late Night Mode</span>
+        </button>
+        <a href="index.html">Home</a>
+        <a href="sketches.html">Sketches</a>
+        <a href="app.html">App</a>
+        <a href="pulse.html" class="is-active nav-pulse" aria-current="page">Pulse<span class="nav-sub" aria-hidden="true">the sketch library</span></a>
+        <a href="notes.html">Notes</a>
+      </nav>
+    </div>
+    </header>
+
+
+    <main class="lib" id="lib">
+      <section class="lib-hero">
+        <p class="lib-kicker">Pulse · the sketch library</p>
+        <h1 class="lib-title">Small books for big shifts.</h1>
+        <p class="lib-sub">Hand-drawn explainers on AI, tech and the economy. Pick a book, read the 60-second version, turn the pages.</p>
+        <form class="lib-ask" id="lib-ask" role="search" autocomplete="off">
+          <label class="sr-only" for="ask-input">Ask the library</label>
+          <input id="ask-input" type="search" placeholder="Ask the library — e.g. “why are GPUs scarce?”" />
+          <button type="submit">Ask</button>
+        </form>
+        <p class="lib-ask-hint" id="ask-hint" aria-live="polite"></p>
+      </section>
+
+      <div class="lib-bar">
+        <div class="lib-tabs" role="tablist" aria-label="Topics" id="lib-tabs"></div>
+        <span class="lib-new" id="lib-new" hidden></span>
+      </div>
+
+      <div id="shelves" class="shelves" aria-live="polite">
+        <p class="lib-loading">Opening the library…</p>
+      </div>
+      <noscript><p class="lib-loading">Pulse needs JavaScript to open the books.</p></noscript>
+    </main>
+
+    <!-- Reader -->
+    <div class="reader" id="reader" hidden role="dialog" aria-modal="true" aria-labelledby="rd-title">
+      <div class="rd-top">
+        <button class="rd-btn" id="rd-close" aria-label="Back to the shelf">← Shelf</button>
+        <div class="rd-head"><span class="rd-topic" id="rd-topic"></span><h2 id="rd-title"></h2></div>
+        <div class="rd-actions">
+          <button class="rd-btn" id="rd-bm" aria-pressed="false" aria-label="Bookmark this page">Bookmark</button>
+          <button class="rd-btn" id="rd-share" aria-label="Copy a link to this page">Share</button>
+        </div>
+      </div>
+      <div class="rd-stage" id="rd-stage">
+        <button class="rd-nav rd-prev" id="rd-prev" aria-label="Previous page">‹</button>
+        <div class="book" id="book"><div class="page" id="page"></div><div class="ribbon" id="ribbon" hidden></div></div>
+        <button class="rd-nav rd-next" id="rd-next" aria-label="Next page">›</button>
+      </div>
+      <div class="rd-foot">
+        <span class="rd-pagetitle" id="rd-pagetitle"></span>
+        <div class="rd-dots" id="rd-dots"></div>
+      </div>
+    </div>
+    <div class="zoom" id="zoom" hidden role="dialog" aria-label="Zoomed page"><img id="zoom-img" alt="" /><button class="rd-btn zoom-x" id="zoom-x" aria-label="Close zoom">Close</button></div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <footer class="footer">
+      <div class="foot-inner">
+        <span class="foot-brand">
+          <svg width="20" height="20" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="6" y="7" width="22" height="26" rx="2.5"/>
+            <circle cx="6" cy="14" r="1"/>
+            <circle cx="6" cy="20" r="1"/>
+            <circle cx="6" cy="26" r="1"/>
+            <path d="M30 17 a5 5 0 1 1 -3 9 v3 h3 v-3 a5 5 0 0 0 0 -9 z"/>
+          </svg>
+          ProductSnap Studio
+        </span>
+        <span class="foot-meta">ProductSnap Studio · Pulse</span>
+        <span class="foot-hand">a working notebook · still being drafted</span>
+      </div>
+    </footer>
+
+    <!-- Hand-drawn arrow filter (shared across page) -->
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+      <defs>
+        <filter id="rough-arrow" x="-5%" y="-5%" width="110%" height="110%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4" />
+          <feDisplacementMap in="SourceGraphic" scale="1.2" />
+        </filter>
+        <filter id="rough-line" x="-2%" y="-15%" width="104%" height="130%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="3" />
+          <feDisplacementMap in="SourceGraphic" scale="1.6" />
+        </filter>
+        <!-- Pass H: slightly imperfect underline stroke for the active lens tab -->
+        <filter id="rough-underline" x="-4%" y="-40%" width="108%" height="180%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" />
+          <feDisplacementMap in="SourceGraphic" scale="1.5" />
+        </filter>
+      </defs>
+    </svg>
+
+    <script src="js/nav.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="js/pulse.js"></script>
+    <!-- Privacy-friendly analytics (Umami) — cookieless, deferred, no-op until configured. See README. -->
+    <script src="js/analytics.js" defer></script>
+  </body>
+</html>
