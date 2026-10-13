@@ -2114,7 +2114,7 @@ header.topnav-wrap {
   display: inline-block;
   font-family: var(--hand);
   font-size: 17px;
-  color: var(--pink);
+  color: #b8347a; /* darker pink: 4.5:1 contrast on paper */
   margin-bottom: 6px;
 }
 .plc-title {
@@ -3716,3 +3716,4 @@ html.js.reveal-on .thought-teaser .tt-ref {
     animation: none !important;
   }
 }
+
