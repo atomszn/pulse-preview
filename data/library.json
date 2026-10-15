@@ -945,9 +945,9 @@
       "topic": "Macro",
       "blurb": "One recession, two readings of what went wrong.",
       "gist": [
-        "Keynesians focus on the slump: when spending falls, government or the central bank steps in to boost it, and cools an overheating economy with higher rates or taxes.",
-        "Austrians focus on the boom before the slump: they say cheap credit can push firms to build things people won't end up wanting, and the bust is the cleanup.",
-        "On money, Keynesians see the central bank as a tool to steady the economy; Austrians argue its money creation sends false signals and say leave the dial alone."
+        "Keynesians focus on the slump: when spending falls, government or the central bank steps in to lift it, and leans against overheating.",
+        "Austrians focus on the boom: cheap credit pushes firms to build things people won't end up wanting, and the bust is the cleanup.",
+        "On money, Keynesians see the central bank as a tool to steady the economy; Austrians say its money creation sends false signals."
       ],
       "added": "2026-10-15",
       "pages": [
@@ -993,7 +993,8 @@
           "title": "IMF Working Paper WP/02/2: The Austrian Theory of Business Cycles: Old Lessons for Modern Economic Policy?",
           "url": "https://www.imf.org/external/pubs/ft/wp/2002/wp0202.pdf"
         }
-      ]
+      ],
+      "added_at": "2026-10-15T08:52"
     },
     {
       "id": "fintech-rails",
@@ -1001,8 +1002,8 @@
       "topic": "Fintech",
       "blurb": "Why apps want banks, and cards want currencies.",
       "gist": [
-        "Many fintech apps rent a bank's license. As they grow, some are buying a bank or applying for their own charter (Chime, Revolut, Nubank), and most are still waiting on regulators.",
-        "Multi-currency stablecoin cards aim to let you spend a currency you hold without forced swaps. Wise and Revolut already do this; what's new is Stripe's card rails that any app can build on. Early days.",
+        "Many fintech apps rent a bank's license. Some now buy a bank or seek a charter (Chime, Revolut, Nubank); most still wait.",
+        "Stablecoin cards aim to let you spend what you hold, no forced swaps. Wise and Revolut do it; Stripe's rails let any app build it. Early days.",
         "Outlook, not fact: more charter applications, and Mastercard and Visa building similar tools, plus a few clearly labelled guesses. Announced is not arrived."
       ],
       "added": "2026-10-15",
@@ -1032,7 +1033,8 @@
           "w": 1600,
           "h": 2760,
           "kw": "fintech rails part heading has announced far plus sz02 guesses label behind-the-scenes genius systems move money sets rules stablecoins banks fintechs want applications strings attached us regulator occ logged charter approvals jan oct four year different routes buy bank chime start one revolut mercury take narrow mission lane credit-card tat guess partner lose volume big small ones keep renting asked least 95m starting capital skeptics community-bank group icba sued grants trust charters analysts add owning brings integration burdens cards networks building mastercard closed bvnk deal aug launched multi-currency platform visa says supports stablecoin-linked card programs last company figures coverage widening dates shift stripe plasma say countries now planned earlier bridge target end due act expected effect detailed still proposals italy tested stablecoin transfers found all-in costs nearly bis calls performance uneven fees spreads count arrived watch outlook fact law",
-          "takeaway": "Outlook, not fact: announced is not arrived. Watch the dates."
+          "takeaway": "Outlook, not fact: announced is not arrived. Watch the dates.",
+          "outlook": true
         }
       ],
       "tagline": "Why apps want banks, and cards want currencies",
@@ -1162,7 +1164,8 @@
           "title": "Analysis: The Financial Current, Chime company profile (secondary)",
           "url": "https://thefinancialcurrent.com/deep-dives/chime-consumer-finance-company-profile"
         }
-      ]
+      ],
+      "added_at": "2026-10-15T11:18"
     }
   ]
 }
