@@ -321,7 +321,7 @@
     }
   }
   /* Shelf tiers: books split across planks (7/6 for 13), varied widths/heights,
-     one leaning spine per tier, sketch decor (bookend, flat stack, plant) placed per tier. */
+     one leaning spine per tier (left/right and position vary by row), sketch decor (bookend, flat stack, plant) placed per tier. */
   var DECOR = {
     end: '<svg viewBox="0 0 26 120" width="26" height="120"><path class="dc-end" d="M4 118V60c0-7 5-12 12-12h6v70z"/><path d="M8 70h10" stroke-opacity=".4"/></svg>',
     stack: '<svg viewBox="0 0 70 60" width="70" height="60"><rect class="dc-b1" x="4" y="44" width="60" height="14" rx="2"/><rect class="dc-b2" x="9" y="31" width="50" height="13" rx="2"/><rect class="dc-b3" x="2" y="20" width="56" height="11" rx="2"/><path d="M12 51h34M16 37h28M10 25h30" stroke-opacity=".45"/></svg>',
@@ -338,10 +338,11 @@
       var row = el("div", "shelf-row spines tier");
       if (t % 2 === 0) row.appendChild(deco("end"));
       else row.appendChild(deco("stack"));
+      var leanAt = part.length > 2 ? (t % 3 === 0 ? part.length - 1 : t % 3 === 1 ? Math.max(1, part.length - 2) : 0) : -1;
       part.forEach(function (b, i) {
         var s = spine(b), L = b.title.length;
         s.style.setProperty("--swb", (L > 22 ? 1.18 : L > 13 ? 1.05 : .92));
-        if (i === part.length - 1 && part.length > 2) s.classList.add("is-lean");
+        if (i === leanAt) s.classList.add(t % 2 === 0 ? "is-lean-left" : "is-lean-right");
         row.appendChild(s);
       });
       if (t % 2 === 0) { row.appendChild(deco("stack", "sm")); row.appendChild(deco("plant")); }
