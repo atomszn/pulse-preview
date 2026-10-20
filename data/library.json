@@ -252,11 +252,11 @@
    "id": "ai-agents",
    "title": "AI Agents",
    "topic": "AI",
-   "blurb": "Follow Zara, 17, as an AI agent plans her birthday: what an agent is, who pays it, whose side it's on, and who covers its mistakes.",
+   "blurb": "Follow Zara, 17, as an AI agent plans her party, seen from her side, the shop's, the agent company's, the bank's and the referees' around the world.",
    "gist": [
     "An AI agent does the task for you, not just chats.",
-    "Who pays the agent shapes whose side it is on, and the ad label can vanish.",
-    "Rules on who covers its mistakes are still being built, so start small and keep control."
+    "You pay by subscription, or ads pay for free plans, which shapes whose side it is on.",
+    "When it slips up, the shop on the receipt handles refunds; start small and keep control."
    ],
    "added": "2026-10-12",
    "added_at": "2026-10-20T13:55",
@@ -264,70 +264,86 @@
     {
      "file": "assets/pulse/ai-agents/p01.webp",
      "thumb": "assets/pulse/ai-agents/p01-t.webp",
-     "title": "A chatbot answers. An agent does.",
+     "title": "What are we talking about? The tech",
      "w": 1600,
      "h": 2400,
-     "kw": "chate answers lace oeh fas minn poner tae eae emia say qe leg css r75 rail agent artificial intelligence software trained lots exemeles task chats zara asks chatbot pizza places birthday gives list still calls books pays tells table saturday cheap searches sends confirmation ear see realite check agents good finding drafting paying new pig source plain english ennneon ours payment features stil peing sie american expless aisdallaiee commerce page card atom whatitis acent examples reality plain-english definition being built express agentic oct 1of"
+     "kw": "picture map cut tech penins fee oioio ooo ney senn eett pla ebb ipa ery poe aaa nga ico lig ony ere artificial felligence software learned patterns tons examples autocorrect huge chathot chat answers like librarian agent task step friend books table jool app access ok use calendar shop lending key company firm builds runs e.g openal makes chatgpt eee source plain-english definitions ours sep acts user's card picturemap talking abovt ai intelligence chatbot tool atom"
     },
     {
      "file": "assets/pulse/ai-agents/p02.webp",
      "thumb": "assets/pulse/ai-agents/p02-t.webp",
-     "title": "Who pays the robot?",
+     "title": "What are we talking about? Money and rules",
      "w": 1600,
      "h": 2400,
-     "kw": "hota aoe une pays robot ioe cie ver fem reel sree siam sempre retin awan example lintals fee say month viel ial restaurant suggested like sponsored search result ser ete rae eae ree ealicr gives uate iceaealy cut sooans fished als get paid mhen hihi sarum done aie sar gna aia read free eee means someone else paying ets bine hea ali source prices made examples payment models summary mebs services change poeey card atom monthly seller shop agent's company booking finished job actually usually made-up charge today"
+     "kw": "picture map talking money rules errr paper oe2 sere yas fae eee sponsored recult spot shop paid like tag search page spending cap top limit agent spend think pocket dicpute chargeback asking bank reverse charge take-back button regulator government referee shops uk's cma competition markets authority source plain-english definitions ours gov.uk mar card ato picturemap abovt result dispute atom"
     },
     {
      "file": "assets/pulse/ai-agents/p03.webp",
      "thumb": "assets/pulse/ai-agents/p03-t.webp",
-     "title": "Same ask, different boss",
+     "title": "Zara's party, the easy way",
      "w": 1600,
      "h": 2400,
-     "kw": "int doe jas lee fol ating ai gts sty uke pis mist fee ras neg ret tie als pir haart abert alae onal rebus tat tee bee ond rwy ote yale eit pts ask different boss oni late bell pen had nual tires seen ate fry cath fea fae antes aif pal pek pht pat nam abulin ses rot eat slt wie lel ort nya hows cry bie gat zara asks two agents cheap hotel school trip priced rupees sisi dollars tet lit yay tre sia agent paid hotels picks one pays best deal tae iat vanishing label search page says sponsored foe pid disappear ule ays read poh ane mee honest whoever bays melo source jiustration ours spenecied rules see card eeourees india e-commerce eu act atte pehiags tke aint pies jara ser est ees arth ook o's jey hel tar ods aire pre sep nao ela bes ete sofie pred whoseside pounds ordollars illustration sponsored-label sources",
-     "takeaway": "When an agent picks for you, ask who pays it: the same request can get a different answer depending on its boss."
+     "kw": "zara zara's pares easy way koa wig c62 o73 samed oat has ene sen rfr pres esd ask tells agent table saturday cake paper towels chatbot hands list searches fills cart asks confirm fouch lets use calendar one shop whole banking reali check agents good finding drafting paying still new eee source openal sep users step american express agentic commerce page features coming soon oct illustration cee card atom party touch app reality"
     },
     {
      "file": "assets/pulse/ai-agents/p04.webp",
      "thumb": "assets/pulse/ai-agents/p04-t.webp",
-     "title": "It ordered 12, not 1",
+     "title": "Who pays for the agent?",
      "w": 1600,
      "h": 2400,
-     "kw": "mix ordered wor fea ofa ool nea kgs mee ous psi ask get paper towels party oops agent packs instead zara's doorstep now eee towel fort shop sxbchy mistake says sein early uk us shops estimate sales involve abe igs jun checkout.com ame checkout com press release agentic commerce report merchant mix-up illustration err card ktom shipped exactly still agents source"
+     "kw": "pays paye agent aaa ony fas pen ick eae sese ijs bby wie ies werk subscription chatgpt plus pro month us prices costs countries ads free cheap plans tested feb none under-18s like zara shop anymore launch sep shops paid small fee sales made chat now finish shop's site oct read agents ask whose side yours source openal introducing jan help page buy chatgpt.com merchants card atom 0ct",
+     "takeaway": "Free or cheap agents are mostly paid for by ads, so it's worth asking whose side yours is on."
     },
     {
      "file": "assets/pulse/ai-agents/p05.webp",
      "thumb": "assets/pulse/ai-agents/p05-t.webp",
-     "title": "Who pays for the mistake?",
+     "title": "The shop's side: 12 packs, not 1",
      "w": 1600,
      "h": 2400,
-     "kw": "essai cones pays mistake ant sss prt sey said agent stuck unless shop takes returns vee pore eer seller receipt usually handles return eats loss company us shops one survey say pay vite tee aii tat eae card compan bank visa mastercard undo charge never ok'd called dispute payment pipes agents being built american express's diol etches isn't live yet eee source pym nts intelligence shopping season agentic sep merchants express commerce page oct atom whocoversit protection pymnts",
-     "takeaway": "Right now nobody fully owns an agent's mistake, so the shop's return rules are often your real safety net."
+     "kw": "shop vot shops side packs qt ane gol sane us ties rae opes ets see vice bee ate aes rum cops agent ordered paper towels instead whose name receipt merchant record seller bank statement handles refunds chargebacks feel surveyed say company cover loss gets wrong sep ctill earl uk estimate purchases involve agents jun checkout.com source openal agentic commerce production faq oct pymnts intelligence mix-up illustration card atom shop's hame still early",
+     "takeaway": "The shop on your receipt (the merchant of record) handles refunds and chargebacks, even when an agent placed the order."
     },
     {
      "file": "assets/pulse/ai-agents/p06.webp",
      "thumb": "assets/pulse/ai-agents/p06-t.webp",
-     "title": "The shop, the referee, the world",
+     "title": "Same ask, different boss",
      "w": 1600,
      "h": 2400,
-     "kw": "nee fea mpd sho referee world tet rer lau ihe plate tas res enn owner ae2 us shops surveyed show products tere uk answer agents like staff says cma sill deh slit mat tut eu since aug antes say aie see india jan online must label paid tor listings owt mind austral mal government review found current shopper law mostly covers source pymnts sep complying consumer using gov.uk mar european commission jul eoee igh eee eustalel ieesury e0e bes tae tal amt pointsofview shop competition markets authority chatbots act paid-for australia pib australian treasury oct card"
+     "kw": "agent company came ask different bose aly sugy ivy aml pee iets amt arn fiix eet kiex rie see wah sth ray gea jwo agents one zara asks two cheap school-trip hotel paid hotels pick openal says ads sit below answers clearly labelled don't change oct vaniching label picks sponsored tag quietly disappear chops wait us shops surveyed show products sep eee source chatgpt help page pymnts intelligence example illustration card atom theagentcompany boss openai vanishing abel ahd 6of9"
     },
     {
      "file": "assets/pulse/ai-agents/p07.webp",
      "thumb": "assets/pulse/ai-agents/p07-t.webp",
+     "title": "The bank's side",
+     "w": 1600,
+     "h": 2400,
+     "kw": "bank side biely 18a fos mat pag fie ins teu pace ape cencnn hee pes hex take-back button charge wrong zara's start chargeback pull money back shop card protection american express plans agent purchases us cards live yet oct baunk worr really zara said hacked pipes bein built visa mastercard others building ways check allowed pay eee source agentic commerce page pymnts intelligence sep emerging systems openal production faq chargebacks atom bahk's bank's worry being"
+    },
+    {
+     "file": "assets/pulse/ai-agents/p08.webp",
+     "thumb": "assets/pulse/ai-agents/p08-t.webp",
+     "title": "Referees around the world",
+     "w": 1600,
+     "h": 2400,
+     "kw": "referees around world lee ol5 psy ies e2e08 bas uk shop answers agent breaking law cma mar since aug chatbots must say eu act iudia jan online shops label sponsored listings auctralia treasury review shopper mostly copes us normal card-dispute rules apply fair credit billing eee source gov.uk european commission jul india pib sep australian oct fic card atom thereferees australia card8of9"
+    },
+    {
+     "file": "assets/pulse/ai-agents/p09.webp",
+     "thumb": "assets/pulse/ai-agents/p09-t.webp",
      "title": "Give it a valet key",
      "w": 1600,
      "h": 2400,
-     "kw": "wux est give valet pay bid sry abd oil key starts car won't open trunk agent job needs thes ask rst must pays sends deletes anything spending cap use prepaid card small wallet like upi lite india eat unified payments interface average shoppers six countries let spend purchase without asking off switch make sure cancel one tap fae read fetch sata soca ehecteue com jun top consumer weecuaree caps instant revocation easy cancellation no-approval limit markets limits rbi oct epee tryitsafely frst upl 00o f177 source checkout.com safeguards rbl",
-     "takeaway": "Start with tasks that find and draft; only let an agent spend with a cap, an ask-first rule and an off switch."
+     "kw": "give valet key eaa sss hae inl mes nnn gee sass starts car won't open trunk agent job needs ack first must ask pays sends deletes anything spending cap average shoppers six countries let spend purchase without asking india's upi lite unified payments interface caps payment cwitch read make sure cancel one tap fetch nee sera source checkout.com jun mane revoke limit rbi circular dec wallet card ato f177 upl off switch rbl 9of atom",
+     "takeaway": "Start by letting an agent find and draft; only let it spend with a cap, an ask-first rule and an off switch."
     }
    ],
    "recap": [
     "Chatbot answers; agent does.",
-    "You, an ad, the seller, or per job pays.",
-    "Same ask, different boss.",
-    "Mistakes: you, shop, AI company or card company."
+    "You pay by subscription, or ads pay for free plans.",
+    "The merchant of record handles refunds and chargebacks.",
+    "Valet key: ask first, cap, off switch."
    ],
-   "recap_pages": 7,
+   "recap_pages": 9,
    "tagline": "A chatbot answers. An agent does.",
    "updated": "2026-10-20"
   },
