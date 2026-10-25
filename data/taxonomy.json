@@ -564,6 +564,57 @@
           1215
         ]
       }
+    },
+    "how-electric-cars-work": {
+      "sub": "Getting around",
+      "tags": [
+        "big-names"
+      ],
+      "aka": [
+        "ev",
+        "evs",
+        "electric car",
+        "electric cars",
+        "electric vehicle",
+        "electric vehicles",
+        "tesla",
+        "model y",
+        "model 3",
+        "byd",
+        "nacs",
+        "supercharger",
+        "superchargers",
+        "charging",
+        "ev charging",
+        "fast charging",
+        "battery",
+        "batteries",
+        "lithium",
+        "lithium-ion",
+        "kwh",
+        "range",
+        "regen",
+        "waymo",
+        "lidar",
+        "cybercab",
+        "robotaxi",
+        "robotaxis",
+        "fsd",
+        "self-driving",
+        "self driving cars",
+        "gas vs electric",
+        "elon",
+        "elon musk"
+      ],
+      "cover": {
+        "page": 1,
+        "box": [
+          520,
+          440,
+          1500,
+          1175
+        ]
+      }
     }
   }
 }

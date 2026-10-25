@@ -3428,6 +3428,258 @@
           "url": "https://paradromics.com/news/paradromics-completes-first-human-brain-computer-interface-bci-implantation/"
         }
       ]
+    },
+    {
+      "id": "how-electric-cars-work",
+      "title": "How Electric Cars Work",
+      "topic": "Frontier Tech",
+      "blurb": "Remy's road-trip log uses one 400-mile drive to Grandma's as a yardstick: why EVs were stuck, how batteries and motors work, how Tesla's plan, chargers and plug changed the game, what the trip costs vs gas, how the world (and BYD) switched, cameras vs lidar for self-driving, and the Cybercab's promises vs delivery.",
+      "gist": [
+        "Around 2010 EVs were stuck on short range, $1,474-per-kWh batteries and slow charging; battery packs are now 93% cheaper.",
+        "A battery shuttles lithium ions, a motor chases a spinning magnetic field, and an EV turns 87 to 91% of its energy into motion vs about 30% for gas.",
+        "Tesla proved the cars, chargers and plug; now China and BYD lead sales, and the next race is self-driving, Waymo's lidar vs Tesla's cameras."
+      ],
+      "added": "2026-10-24",
+      "added_at": "2026-10-24T21:37",
+      "tagline": "Lithium on a shuttle, magnets that chase, and one 400-mile road trip.",
+      "pages": [
+        {
+          "file": "assets/pulse/how-electric-cars-work/p01.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p01-t.webp",
+          "title": "Why did cars go electric?",
+          "w": 1600,
+          "h": 2682,
+          "kw": "mile hook cars electric remy's road-trip log work tesla got world switch question grandma lives miles away car get cheaply made new sold worldwide million range nissan leaf teslas built sep next words first source iea global ev outlook counts include plug-in hybrids fueleconomy.gov update facts oct remy trip card",
+          "takeaway": "1 in 4 new cars sold worldwide in 2025 was electric (20 million+, counting plug-in hybrids); a 2011 Nissan Leaf went 73 miles, and Tesla had built 10 million cars by Sep 2026."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p02.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p02-t.webp",
+          "title": "Words to know",
+          "w": 1600,
+          "h": 2418,
+          "kw": "mile key words know road-trip book kwh kilowatt-hour unit energy 000-watt microwave uses hour range far full battery takes car ev electric vehicle sales counts include plug-in hybrids regen regenerative braking motor slows charges fast charging highway chargers add miles minutes nacs plug tesla designed now north america's standard sae j3400 lidar sensor measures distance laser pulses robotaxi taxi human driver next evs stuck long source afdc iea global outlook support supercharging noaa doe fotw example arithmetic card",
+          "takeaway": "Key words: kWh (energy), range, EV, regen, DC fast charging, NACS (Tesla's plug, now SAE J3400), lidar and robotaxi."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p03.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p03-t.webp",
+          "title": "Why EVs were stuck",
+          "w": 1600,
+          "h": 2300,
+          "kw": "mile problem evs stuck four roadblocks around range leaf went miles remy's trip need charging stops price batteries cost kwh today's dollars pack full recharge take hours long trips highway fast chargers compliance cars made meet california rule fiat's boss said lost 500e next what's inside ev parts had get better source fueleconomy.gov nissan all-electric vehicles bnef energy-storage.news dec green car reports reuters report arithmetic card",
+          "takeaway": "Around 2010 EVs were stuck: 73 miles of range, batteries at about $1,474 per kWh (today's dollars), 3 to 12 hour recharges and 'compliance cars' built to meet a California rule."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p04.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p04-t.webp",
+          "title": "What's inside an electric car",
+          "w": 1600,
+          "h": 2280,
+          "kw": "mile works what's inside electric car remy's see-through battery pack motor charge port power electronics energy path plug charger turns grid's stores feed wheels fuel tank pump tailpipe next part sets range price source afdc all-electric cars work renault group jun art generic sketch real model card",
+          "takeaway": "An EV is a floor battery, power electronics, an electric motor and a charge port; energy flows from the plug to the pack, through the inverter, to the motor and wheels."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p05.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p05-t.webp",
+          "title": "The battery: lithium on a shuttle",
+          "w": 1600,
+          "h": 2416,
+          "kw": "mile works battery lithium shuttle pack stores remy's miles anode separator cathode motor driving ions cross electrons take outside path through charging flow runs backwards return repeats hundreds cycles much model standard uses kwh trip two recipes prices lfp iron nmc nickel next spends energy source argonne national laboratory science batteries fueleconomy.gov rwd 18in wheels bnef dec arithmetic art generic sketch card",
+          "takeaway": "Lithium ions shuttle between anode and cathode while electrons run through the motor; a 2026 Model Y Standard uses 24 kWh per 100 miles, so Remy's 400 miles take 96 kWh."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p06.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p06-t.webp",
+          "title": "The motor: magnets that chase",
+          "w": 1600,
+          "h": 2448,
+          "kw": "mile works motor magnets chase ev needs engine stator coils rotor spins power electronics turn battery stator's makes spinning magnetic field chases turns wheels regen braking run backwards becomes generator wins back energy next guess much gas car burns trip source renault group electric work jun doe fotw sep epa combined cycle art generic sketch card",
+          "takeaway": "Power electronics turn battery DC into AC, the stator's coils make a spinning magnetic field and the rotor chases it; regen braking wins back about 22% of the energy."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p07.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p07-t.webp",
+          "title": "Guess first: where does the energy go?",
+          "w": 1600,
+          "h": 2404,
+          "kw": "mile works guess first energy remy's miles two ways ev uses kwh much new gas car mpg burn answer flip phone gallons holding leaves heat electric wall fuel turns stored motion counting regen next evs efficient made one people wanted source epa economy range testing gallon automotive trends report feb model year doe fotw arithmetic card",
+          "takeaway": "A new gas car (27.2 mpg) burns about 495 kWh of fuel for Remy's trip vs 96 kWh for the EV (our arithmetic): EVs are 87 to 91% efficient, gas cars about 30%."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p08.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p08-t.webp",
+          "title": "Tesla's master plan",
+          "w": 1600,
+          "h": 2306,
+          "kw": "mile turn tesla's master plan start expensive cheaper written step car showed sports roadster first production ev miles charge sold affordable model range even world's best-selling million next trick made long trips easy source tesla secret motors aug wikipedia generation press release sep update jato dynamics jun art generic sketch card",
+          "takeaway": "Tesla's 2006 plan: a sports car (Roadster, 2008), then cheaper cars (Model S 2012, Model 3 2017 at $35,000); the Model Y was the world's best-selling car of 2023."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p09.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p09-t.webp",
+          "title": "Chargers and software",
+          "w": 1600,
+          "h": 2534,
+          "kw": "mile turn chargers software tesla built road-trip network supercharger stations california sep connectors half-hour stop claim hours driving back minutes updates air new features arrive update like phone factory scale four factories room million model year next charging works remy's trip source press release capacity sum support fsd supervised page art generic sketch card",
+          "takeaway": "Tesla built its own chargers: 6 Supercharger stations in 2012, 8,904 stations and 84,465 connectors by Sep 2026, plus over-the-air updates and room for 2.25 million+ Model 3s and Ys a year (our sum)."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p10.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p10-t.webp",
+          "title": "How charging works",
+          "w": 1600,
+          "h": 2575,
+          "kw": "mile works charging three speeds wall socket highway charger power adds level miles hour home public fast min remy's plan charge overnight drive one 30-minute grandma's rated range read leave buffer next plug itself brands now use tesla's source afdc electric vehicle stations fueleconomy.gov model standard rwd made art generic sketch card",
+          "takeaway": "Level 1 adds about 5 miles an hour, Level 2 about 25, DC fast 100 to 200+ miles in 30 minutes; Remy charges at home and stops once."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p11.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p11-t.webp",
+          "title": "One plug for North America",
+          "w": 1600,
+          "h": 2298,
+          "kw": "mile works one plug north america tesla's became everyone's oct nacs adapter arrives first supercharger model shared tesla publishes design carmaker now standard sae j3400 lists brands superchargers built-in port plugs straight older ccs needs next remy's trip costs source support supercharging evs read art generic sketch card",
+          "takeaway": "Tesla's plug (2012) was published in 2022 and became SAE J3400; Tesla lists 21 other brands that can use its Superchargers, some with an adapter."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p12.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p12-t.webp",
+          "title": "What Remy's 400 miles cost",
+          "w": 1600,
+          "h": 2622,
+          "kw": "mile what's different remy's miles cost priced three ways us averages oct kwh home public chargers gas car mpg gallon math ev price gallons prices move track priciest october ever power year next full scorecard source eia electric monthly residential aug aaa epa automotive trends report feb trip costs arithmetic art generic sketch card",
+          "takeaway": "Remy's 96 kWh costs about $17 at home and $39 at public chargers; a 27.2 mpg gas car needs about $63 of gas (US averages, Oct 2026; our arithmetic)."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p13.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p13-t.webp",
+          "title": "EV vs gas car",
+          "w": 1600,
+          "h": 2248,
+          "kw": "mile what's different ev gas car scorecard oct electric energy motion regen remy's miles home average us price sep new cars tailpipe none upkeep battery life years mild climates doe estimate big watch power plants still pollute depending grid costly next world switching evenly source fotw fueleconomy.gov all-electric vehicles kelley blue book trip costs card arithmetic",
+          "takeaway": "EVs win on efficiency, running cost, tailpipe and upkeep; they cost more up front ($55,879 vs $50,562 for all new cars, Sep 2026) and power plants can still pollute."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p14.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p14-t.webp",
+          "title": "The world switches",
+          "w": 1600,
+          "h": 2426,
+          "kw": "mile what's different world switches electric share new cars sold china million nearly europe united states forecast us tax credit ended bought sep next builds china's cheaper source iea global ev outlook counts include plug-in hybrids irs clean vehicle faq art generic sketch card",
+          "takeaway": "In 2025 EVs were nearly 55% of new cars in China, 28% in Europe, 25% worldwide and just under 10% in the US; the US $7,500 credit ended after Sep 30, 2025."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p15.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p15-t.webp",
+          "title": "Tesla vs BYD and the rest",
+          "w": 1600,
+          "h": 2274,
+          "kw": "mile what's different tesla byd rest sells world's evs china million battery plus plug-in hybrids chinese makers sold worldwide european north american costs packs kwh america europe already match gas cars price almost every segment plot twist musk laughed don't think have great product next tesla's bet drive themselves source cnbc jan electrive iea global ev outlook bnef dec card",
+          "takeaway": "BYD sold 2.26 million battery EVs in 2025 vs Tesla's 1.64 million; Chinese makers sold 60% of the world's EVs, helped by battery packs at $84 per kWh."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p16.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p16-t.webp",
+          "title": "Self-driving: two ways to see",
+          "w": 1600,
+          "h": 2270,
+          "kw": "mile it's heading self-driving two ways see tesla bets cameras waymo adds lidar radar dome sensors dropped bet people drive eyes enough musk three overlapping senses back today fsd supervised driver must watch one driver's seat next scoreboard far source verge oct citing new york times blog aug 6th-generation support art generic sketch card",
+          "takeaway": "Tesla bets on cameras only (radar dropped in 2021) and sells FSD (Supervised); Waymo uses 13 cameras, 4 lidar and 6 radar with no one in the driver's seat."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p17.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p17-t.webp",
+          "title": "Robotaxi scoreboard",
+          "w": 1600,
+          "h": 2152,
+          "kw": "mile it's heading robotaxi scoreboard oct company's numbers waymo tesla us cities parts metros bay area safety driver rides paid week published driverless miles million jun nearly sep claim fewer serious-injury crashes people collisions fsd supervised watching car offered month unsupervised around tesla's gamble leads cameras prove enough millions teslas join unproven far read next built bet source techcrunch update business insider support figures card",
+          "takeaway": "By their own numbers (Oct 2026), Waymo runs in 15 US cities with 500,000 paid rides a week and 270 million+ driverless miles; Tesla has nearly 2 million unsupervised miles and does not publish rides."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p18.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p18-t.webp",
+          "title": "Cybercab: no wheel, no pedals",
+          "w": 1600,
+          "h": 2194,
+          "kw": "mile it's heading cybercab wheel pedals promised delivered oct production built texas room year robotaxi rides austin since sep two seats us safety regulator opened probe self-certification found published price sold buyers tesla aims end next remy's verdict source guardian update techcrunch art generic sketch real card",
+          "takeaway": "Cybercab, promised in Oct 2024 at under $30,000, is built in Texas and gives rides in Austin since Sep 3, 2026; no price is published, sales are aimed for end of 2026 and NHTSA opened a probe."
+        },
+        {
+          "file": "assets/pulse/how-electric-cars-work/p19.webp",
+          "thumb": "assets/pulse/how-electric-cars-work/p19-t.webp",
+          "title": "Remy's verdict",
+          "w": 1600,
+          "h": 2721,
+          "kw": "mile it's heading remy's verdict electric cars far batteries cheaper new miles home power yet us price match evs cost self-driving car cybercab big question keep growing without tax credits robotaxis prove safe scale read remy made one fast charge hot chocolate grandma's pie didn't drive itself singing badly source bnef energy-storage.news dec iea global ev outlook kelley blue book oct techcrunch arithmetic card",
+          "takeaway": "So far: batteries 93% cheaper than 2010 and 1 in 4 new cars electric; not yet: US price match, self-driving in your own car and a Cybercab price."
+        }
+      ],
+      "recap": [
+        "Problem: early EVs had short range, costly batteries and slow charging.",
+        "How: a lithium-ion pack, power electronics and a motor turn most of the energy into motion; chargers add 5 to 200+ miles at a time.",
+        "Different: Tesla's plan, Superchargers and NACS plug; cheaper to run than gas, pricier to buy in the US; China and BYD now lead.",
+        "Next: robotaxis (Waymo's lidar vs Tesla's cameras) and the Cybercab, with price and safety still to prove."
+      ],
+      "recap_pages": 19,
+      "sources": [
+        {
+          "title": "IEA – Global EV Outlook 2026, trends in electric car markets",
+          "url": "https://www.iea.org/reports/global-ev-outlook-2026"
+        },
+        {
+          "title": "Tesla – Q3 2026 Update, shareholder deck filed with the SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm"
+        },
+        {
+          "title": "BloombergNEF – Lithium-ion battery pack prices fall to $108 per kilowatt-hour despite rising metal prices",
+          "url": "https://about.bnef.com/insights/clean-transport/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices-bloombergnef/"
+        },
+        {
+          "title": "US DOE – FOTW 1360, a typical EV is 87 to 91 percent efficient compared to 30 percent for a gasoline vehicle",
+          "url": "https://www.energy.gov/cmei/vehicles/articles/fotw-1360-sept-16-2024-typical-ev-87-91-efficient-compared-30-conventional"
+        },
+        {
+          "title": "fueleconomy.gov – All-Electric Vehicles, how they work, pros and cons",
+          "url": "https://www.fueleconomy.gov/feg/evtech.shtml"
+        },
+        {
+          "title": "US DOE AFDC – Electric Vehicle Charging Stations, charging levels and speeds",
+          "url": "https://afdc.energy.gov/fuels/electricity-stations"
+        },
+        {
+          "title": "Tesla Support – Supercharging Other EVs, NACS and SAE J3400",
+          "url": "https://www.tesla.com/support/charging/supercharging-other-evs"
+        },
+        {
+          "title": "Tesla – Tesla Motors launches revolutionary Supercharger, press release",
+          "url": "https://ir.tesla.com/press-release/tesla-motors-launches-revolutionary-supercharger-enabling"
+        },
+        {
+          "title": "CNBC – China's BYD to overtake Tesla as world's top EV seller for first time",
+          "url": "https://www.cnbc.com/2026/01/02/chinas-byd-to-overtake-tesla-as-worlds-top-ev-seller-for-first-time.html"
+        },
+        {
+          "title": "TechCrunch – Tesla says it will start selling Cybercabs by end of year",
+          "url": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/"
+        },
+        {
+          "title": "TechCrunch – Waymo is scaling fast, here's what the fleet data shows",
+          "url": "https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/"
+        },
+        {
+          "title": "Waymo – Safety impact data through June 2026",
+          "url": "https://waymo.com/blog/shorts/safetydata-september26/"
+        },
+        {
+          "title": "AAA – National average falls 6 cents but crude oil nears $100 a barrel",
+          "url": "https://newsroom.aaa.com/2026/10/national-average-falls-6-cents-but-crude-oil-nears-100-barrel/"
+        },
+        {
+          "title": "Cox Automotive and Kelley Blue Book – September 2026 average transaction price report",
+          "url": "https://www.coxautoinc.com/insights/sept-2026-atp-report/"
+        }
+      ]
     }
   ],
   "moved": {
