@@ -671,6 +671,67 @@
           1230
         ]
       }
+    },
+    "nuclear-for-ai": {
+      "sub": "Energy",
+      "tags": [
+        "big-names"
+      ],
+      "aka": [
+        "nuclear",
+        "nuclear power",
+        "nuclear energy",
+        "nuclear for ai",
+        "smr",
+        "smrs",
+        "small modular reactor",
+        "small modular reactors",
+        "fission",
+        "reactor",
+        "reactors",
+        "uranium",
+        "haleu",
+        "three mile island",
+        "tmi",
+        "crane",
+        "crane clean energy center",
+        "microsoft",
+        "amazon",
+        "google",
+        "meta",
+        "nuscale",
+        "x-energy",
+        "xe-100",
+        "kairos",
+        "kairos power",
+        "terrapower",
+        "natrium",
+        "oklo",
+        "aurora",
+        "bwrx-300",
+        "palisades",
+        "duane arnold",
+        "talen",
+        "constellation",
+        "data center power",
+        "data centre power",
+        "ai power",
+        "ai electricity",
+        "gigawatt",
+        "nrc",
+        "vogtle",
+        "nuclear waste",
+        "firm power"
+      ],
+      "cover": {
+        "page": 1,
+        "box": [
+          280,
+          444,
+          1284,
+          1197
+        ]
+      }
     }
   }
 }

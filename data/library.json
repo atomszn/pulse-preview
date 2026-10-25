@@ -3932,6 +3932,258 @@
           "url": "https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035"
         }
       ]
+    },
+    {
+      "id": "nuclear-for-ai",
+      "title": "Nuclear for AI",
+      "topic": "Frontier Tech",
+      "blurb": "Pip's lab notes follow AI's electricity hunger back to nuclear power: how much a data-centre campus uses, the 24/7 firm-power problem, how a reactor works, why big plants got slow, small reactors' promise vs reality, HALEU fuel, faster licensing, big-tech deals and restarts, a nuclear vs gas vs solar vs wind comparison, waste and honest risks, as of Oct 2026.",
+      "gist": [
+        "AI data centres need huge amounts of power around the clock, and nuclear runs about 91% of the time with no CO2.",
+        "A reactor is a kettle: splitting atoms makes heat, steam spins a turbine, and control rods keep the chain reaction on a leash.",
+        "As of Oct 2026 big tech has signed gigawatts of deals, but new small reactors are still years away, so old plants, restarts and gas fill the gap."
+      ],
+      "added": "2026-10-24",
+      "added_at": "2026-10-24T22:26",
+      "tagline": "Chatbots, chain reactions and a very long waiting line.",
+      "pages": [
+        {
+          "file": "assets/pulse/nuclear-for-ai/p01.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p01-t.webp",
+          "title": "Why does AI need a power plant?",
+          "w": 1600,
+          "h": 2872,
+          "kw": "card hook ai need power plant pip's lab notes nuclear question chatbot answers second plants made twh used world's data centres iea planned meta's hyperion campus three mile island unit restarting microsoft us homes one supply arithmetic next words first source key questions energy apr techcrunch jul nrc crane clean center eia kwh home facts oct pip cat neutron",
+          "takeaway": "Data centres used 485 TWh worldwide in 2025 and may use about 950 TWh by 2030 (IEA); Meta plans a 5 GW AI campus, and 1 GW running all year matches roughly 810,000 US homes (our arithmetic)."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p02.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p02-t.webp",
+          "title": "Words to know",
+          "w": 1600,
+          "h": 2174,
+          "kw": "card key words know lab book power one big reactor twh energy running year makes firm count hour capacity factor plant really share maximum fission splitting heavy atom release heat smr small modular factory-built haleu uranium enriched u-235 next hungry ai campus source iaea reactors doe faq eia electric monthly arithmetic",
+          "takeaway": "Key words: MW and GW (power), TWh (energy over time), firm power, capacity factor, fission, SMR (up to about 300 MW) and HALEU fuel (5 to 20% U-235)."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p03.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p03-t.webp",
+          "title": "How hungry is an AI campus?",
+          "w": 1600,
+          "h": 2794,
+          "kw": "card problem hungry ai campus us data centre electricity twh year forecast range typical uses much power households biggest being built times share epri's scenarios next it's source lbnl center energy usage report dec update iea apr epri powering intelligence art generic sketch",
+          "takeaway": "US data centres went from 58 TWh in 2014 to 192 TWh in 2024, with 325 to 580 TWh forecast for 2028 (LBNL); EPRI sees them using 9 to 17% of US power by 2030, up from 4 to 5%."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p04.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p04-t.webp",
+          "title": "The 24/7 problem",
+          "w": 1600,
+          "h": 2894,
+          "kw": "card problem data centres hum night sun nuclear gas combined cycle wind solar us capacity factors eia math averaging takes panels plus batteries arithmetic waiting line typical power project took months grid request switch-on next reactor runs nonstop source electric monthly tables 6.07.a 6.07.b lbnl queued art generic sketch",
+          "takeaway": "AI campuses need power around the clock: US nuclear ran 91% of the time in 2025, gas combined cycle 59%, wind 34% and solar 24% (EIA), and new projects wait a median 61 months to connect (LBNL)."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p05.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p05-t.webp",
+          "title": "Inside a reactor: atoms boil water",
+          "w": 1600,
+          "h": 2586,
+          "kw": "card works inside reactor atoms boil water pressurized common kind core steam generator turbine cooling tower split uranium release heat hot heats second loop spin spins turns cool back goes round efficient third becomes electricity next keeps splitting control source eia nuclear explained power plants nrc reactors art generic sketch",
+          "takeaway": "A pressurized water reactor splits uranium to make heat, boils water in a second loop, spins a turbine and cools the steam back to water; only about a third of the heat becomes electricity."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p06.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p06-t.webp",
+          "title": "A chain reaction on a leash",
+          "w": 1600,
+          "h": 2716,
+          "kw": "card works chain reaction leash fission one neutron time u-235 control rod split neutrons splits atom two pieces heat new critical normal triggers exactly output holds steady rods soak slow speed tiny fuel fingertip-size pellet ton coal's energy next something goes wrong source world nuclear news criticality jun nrc nei coal eia cycle art generic sketch",
+          "takeaway": "Each U-235 split releases 2 or 3 neutrons; 'critical' just means each split triggers exactly one more, and control rods soak up neutrons to slow or stop the chain reaction."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p07.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p07-t.webp",
+          "title": "Four walls of safety",
+          "w": 1600,
+          "h": 2600,
+          "kw": "card works four walls safety defence depth pellet fuel rod vessel containment layers ceramic pellets trap radioactive material sealed metal tubes hold thick steel holds core concrete dome surrounds history lesson three mile island unit partly melted next door ran until microsoft wants back newer designs many smrs cool natural circulation pumps needed company claim new big plants get slow source nrc defense backgrounder accident nuscale passive cooling art generic sketch",
+          "takeaway": "Defence in depth: ceramic pellets, sealed fuel rods, a steel vessel and a concrete containment dome; Three Mile Island Unit 2 partly melted down in 1979 while Unit 1 ran until 2019."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p08.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p08-t.webp",
+          "title": "Why big plants got slow",
+          "w": 1600,
+          "h": 2725,
+          "kw": "card stalled big plants got slow vogtle georgia plan happened cost billion online built started done years later first kind crews learned job every plant custom megaproject interest piles power sold pip made i'd college next fix offer small many source eia unit begins commercial operation three reasons read art generic sketch",
+          "takeaway": "Vogtle 3 and 4 in Georgia were planned at $14 billion for 2016 and 2017 and finished in 2023 and 2024 at more than $30 billion (EIA): first-of-a-kind crews, custom megaprojects and years of interest."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p09.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p09-t.webp",
+          "title": "Small reactors: the pitch",
+          "w": 1600,
+          "h": 2442,
+          "kw": "card big bet small reactors pitch build like aircraft cathedrals plant smr size built site custom factory parts shipped coolant water sodium salt helium one giant many copies get cheaper happened first nuscale's idaho cancelled cost rose billion reality next building now source iaea smrs eia vogtle units reuters nov ieefa jan industry's claim art generic sketch",
+          "takeaway": "Small modular reactors promise factory-built copies that get cheaper, but NuScale's first US plant was cancelled in 2023 when its price reached $9.3 billion for 462 MW."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p10.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p10-t.webp",
+          "title": "The new-reactor line-up",
+          "w": 1600,
+          "h": 2511,
+          "kw": "card players new-reactor line-up status oct reactor target nuscale water units design approved firm order tva talks hitachi bwrx-300 building canada permit ontario end terrapower natrium sodium construction mar wyoming x-energy xe-100 helium nrc review texas amazon washington kairos hermes salt tennessee google oklo aurora idaho lab next every new needs fuel there's catch source sda kemmerer cpar-1 clinch river cpar-2 sep long mott utility dive doe jul targets company plans art generic",
+          "takeaway": "As of Oct 2026 no new US SMR makes power: NuScale has a design approval, BWRX-300 is being built in Ontario, Natrium and Clinch River have permits, Xe-100 is under review, and Kairos and Oklo are building test units."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p11.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p11-t.webp",
+          "title": "The fuel bottleneck",
+          "w": 1600,
+          "h": 2652,
+          "kw": "card fuel bottleneck barely exists yet today's reactors burn uranium enriched u-235 many new ones need haleu small long-running cores tiny supply centrus's ohio demo plant made year doe sees tonnes needed plan us law bans russian waivers end million deal adds centrus capacity next one gate rulebook another source faq reaches mark allocation nucnet jul nrc import ban eia nuclear cycle art generic sketch",
+          "takeaway": "Many new designs need HALEU (5 to 20% enriched); Centrus's Ohio demo made about 900 kg a year while DOE sees 40+ tonnes needed by 2030, and a $900 million DOE deal adds capacity by 2029."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p12.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p12-t.webp",
+          "title": "Licensing speeds up",
+          "w": 1600,
+          "h": 2804,
+          "kw": "card rules licensing speeds paperwork gets deadlines executive orders nrc decisions within months mar first permit commercial non-water reactor natrium jun-jul four doe-approved test reactors critical zero power sep tva us bwrx-300 clinch river plant none new designs sends grid yet read pip made neutron took learn sit next who's paying big tech source white house doe key takeaways jun jul federal register oct art generic sketch",
+          "takeaway": "Rules sped up: May 2025 executive orders set 18-month NRC decisions and a 400 GW goal for 2050; Natrium got a permit in Mar 2026, four test reactors went critical in summer 2026 and TVA won a BWRX-300 permit in Sep 2026."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p13.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p13-t.webp",
+          "title": "Big tech goes shopping",
+          "w": 1600,
+          "h": 2369,
+          "kw": "card deals big tech goes shopping oct buyer deal power microsoft crane tmi-1 restart years target amazon talen susquehanna existing plant full x-energy smrs google duane arnold early kairos meta clinton illinois jun vistra terrapower oklo read fine print old plants deliver now new-reactor targets buys credits wires next quickest wins coming back source constellation nextera jan dates sizes company figures",
+          "takeaway": "Big tech signed nuclear deals: Microsoft (Crane, 835 MW), Amazon (Talen 1.92 GW, X-energy 5 GW), Google (Duane Arnold 615 MW, Kairos 500 MW) and Meta (Clinton 1.12 GW, up to 6.6 GW more by 2035)."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p14.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p14-t.webp",
+          "title": "Restarts: the fastest nuclear",
+          "w": 1600,
+          "h": 2716,
+          "kw": "card deals restarts fastest nuclear waking plants already exist crane pennsylvania shut nrc environmental review done sep aiming grid hookup lag palisades michigan first us plant back operating status fuel loading paused assembly tilted resumed oct duane arnold iowa target early google limit quick because exists closed return read next stacks against rest source federal register constellation holtec public reuters mar nextera art generic sketch",
+          "takeaway": "Restarting closed plants is the fastest nuclear: Palisades resumed fuel loading in Oct 2026, Crane aims for 2027 and Duane Arnold for early 2029, but few closed plants can come back (our read)."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p15.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p15-t.webp",
+          "title": "Nuclear vs gas vs sun vs wind",
+          "w": 1600,
+          "h": 2320,
+          "kw": "card compare nuclear gas sun wind us numbers oct option cost mwh runs build time new years vogtle co2 combined cycle turbines booked solar storage fast 5-year grid queue stored hours onshore real life meta's louisiana campus gets plants first approved mix winner renewables now later read next nuclear's biggest worry waste source lazard lcoe unsubsidized eia capacity factors utility dive vernova backlog lbnl queued reuters aug entergy meta costs exclude backup",
+          "takeaway": "Lazard 2026 costs per MWh: new nuclear $175 to $255, gas combined cycle $51 to $129, solar plus storage $61 to $156 and onshore wind $37 to $99; nuclear is firm but slowest to build."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p16.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p16-t.webp",
+          "title": "Guess first: how much waste?",
+          "w": 1600,
+          "h": 2434,
+          "kw": "card risks guess first much waste every used fuel rod since 1950s piled us nuclear size city stadium mountain answer flip phone football field yards deep tonnes heavy big doe sits cooling pools steel-and-concrete dry casks reactor sites still has permanent underground store next one risk rest source fast facts spent nei happens gao disposal art generic sketch",
+          "takeaway": "All US used nuclear fuel since the 1950s, about 90,000 tonnes, would cover one football field less than 10 yards deep (DOE); it sits in pools and dry casks with no permanent store."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p17.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p17-t.webp",
+          "title": "The honest risks",
+          "w": 1600,
+          "h": 2604,
+          "kw": "card risks honest beyond waste cost overruns vogtle twice plan us smr built yet real price unknown timelines every new-reactor date say hype deals announced gigawatts new reactors far deliver zero read safety rules faster reviews must mean weaker checks one accident stall everything next heading source eia nrc company dates cards doe haleu faq art generic sketch",
+          "takeaway": "The honest risks: cost overruns, slipping timelines, gigawatt deals with no new power yet (our read), and faster reviews that must not mean weaker safety checks (our read)."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p18.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p18-t.webp",
+          "title": "The road to 2035",
+          "w": 1600,
+          "h": 2590,
+          "kw": "card it's heading road companies governments plan crane back online target first smrs oklo ontario's bwrx-300 hermes natrium google meta targets amazon's us goal nuclear four times today timing gap data centres years new reactors take gas fills read next pip's verdict source company cards white house iea key questions energy ai apr dates plans art generic sketch",
+          "takeaway": "Planned road: Crane back in 2027, first SMRs 2028 to 2030, Google and Meta targets by 2035, Amazon's 5 GW by 2039 and a US goal of 400 GW by 2050; data centres grow faster than reactors (our read)."
+        },
+        {
+          "file": "assets/pulse/nuclear-for-ai/p19.webp",
+          "thumb": "assets/pulse/nuclear-for-ai/p19-t.webp",
+          "title": "Pip's verdict",
+          "w": 1600,
+          "h": 2602,
+          "kw": "card it's heading pip's verdict nuclear powering chatbot far old plants signed ai restarts way new designs got permits yet smr grid enough haleu fuel proof copies get cheap big question factory-built reactors finds power elsewhere read pip made runs today maybe ones neutron says warm laptop plant source cited cards",
+          "takeaway": "So far: old plants are signed up, restarts are under way and new designs have permits; not yet: an SMR on the grid, enough HALEU or proof that copies get cheaper."
+        }
+      ],
+      "recap": [
+        "Problem: AI campuses need gigawatts of firm, 24/7 power, and the grid has a five-year waiting line.",
+        "How: fission heats water to steam that spins a turbine, inside four layers of safety.",
+        "Different: small modular reactors promise factory copies, new fuels and faster permits, but none sends power to a US grid yet.",
+        "Next: restarts from 2027, first SMRs around 2028 to 2030, big-tech targets by 2035, with cost, fuel and waste still open questions."
+      ],
+      "recap_pages": 19,
+      "sources": [
+        {
+          "title": "IEA – Key questions on energy and AI, executive summary",
+          "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary"
+        },
+        {
+          "title": "EPRI – Powering Intelligence 2026, executive summary",
+          "url": "https://powering-intelligence.epri.com/executive-summary.html"
+        },
+        {
+          "title": "Berkeley Lab – Queued Up 2026 edition, interconnection queues",
+          "url": "https://emp.lbl.gov/queues/"
+        },
+        {
+          "title": "EIA – Electric Power Monthly table 6.07.B, non-fossil capacity factors",
+          "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=table_6_07_b"
+        },
+        {
+          "title": "EIA – Plant Vogtle Unit 4 begins commercial operation",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61963"
+        },
+        {
+          "title": "Lazard – Levelized cost of energy plus 2026",
+          "url": "https://www.lazard.com/media/lrecseyq/lazards-lcoeplus-v190_vf.pdf"
+        },
+        {
+          "title": "Federal Register – Crane Clean Energy Center environmental assessment",
+          "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19603/constellation-energy-generation-llc-christopher-m-crane-clean-energy-center-environmental-assessment"
+        },
+        {
+          "title": "Federal Register – Kemmerer Unit 1 construction permit and record of decision",
+          "url": "https://www.federalregister.gov/documents/2026/03/16/2026-05067/us-sfr-owner-llc-kemmerer-power-station-unit-1-construction-permit-and-record-of-decision"
+        },
+        {
+          "title": "DOE – Centrus reaches 900 kilogram mark for HALEU production",
+          "url": "https://www.energy.gov/ne/articles/centrus-reaches-900-kilogram-mark-haleu-production"
+        },
+        {
+          "title": "Meta – Nuclear energy projects unlocking up to 6.6 GW",
+          "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/"
+        },
+        {
+          "title": "Talen Energy – Talen expands nuclear energy relationship with Amazon",
+          "url": "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-expands-nuclear-energy-relationship-amazon"
+        },
+        {
+          "title": "NextEra Energy – NextEra and Google collaborate to restart Duane Arnold",
+          "url": "https://www.investor.nexteraenergy.com/news-and-events/news-releases/2025/10-27-2025-203948689"
+        },
+        {
+          "title": "Michigan Public – Palisades resumes fuel loading after damaged assembly is fixed",
+          "url": "https://www.michiganpublic.org/environment-climate-change/2026-10-22/palisades-nuclear-plant-fuel-assembly"
+        },
+        {
+          "title": "DOE – 5 fast facts about spent nuclear fuel",
+          "url": "https://www.energy.gov/ne/articles/5-fast-facts-about-spent-nuclear-fuel"
+        }
+      ]
     }
   ],
   "moved": {
