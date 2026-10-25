@@ -615,6 +615,62 @@
           1175
         ]
       }
+    },
+    "how-humanoid-robots-work": {
+      "sub": "Robots & brains",
+      "tags": [
+        "big-names"
+      ],
+      "aka": [
+        "humanoid",
+        "humanoids",
+        "humanoid robot",
+        "humanoid robots",
+        "robot",
+        "robots",
+        "optimus",
+        "tesla bot",
+        "tesla optimus",
+        "figure",
+        "figure 03",
+        "figure ai",
+        "helix",
+        "digit",
+        "agility",
+        "agility robotics",
+        "atlas",
+        "boston dynamics",
+        "hyundai",
+        "unitree",
+        "g1",
+        "r1",
+        "agibot",
+        "ubtech",
+        "1x",
+        "neo",
+        "apptronik",
+        "apollo",
+        "teleoperation",
+        "reinforcement learning",
+        "simulation",
+        "vla",
+        "gr00t",
+        "gemini robotics",
+        "robot hands",
+        "walking robot",
+        "robot brains",
+        "elon",
+        "elon musk"
+      ],
+      "cover": {
+        "page": 1,
+        "box": [
+          249,
+          470,
+          1262,
+          1230
+        ]
+      }
     }
   }
 }

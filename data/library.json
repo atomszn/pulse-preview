@@ -3680,6 +3680,258 @@
           "url": "https://www.coxautoinc.com/insights/sept-2026-atp-report/"
         }
       ]
+    },
+    {
+      "id": "how-humanoid-robots-work",
+      "title": "How Humanoid Robots Work",
+      "topic": "Frontier Tech",
+      "blurb": "Mo's workshop log tests humanoid robots against three chores: why robots get human shapes, the hard parts (balance, hands, motors and batteries, AI brains), four ways they learn, the 2026 line-up from Optimus to Unitree, real work vs demos vs promises, safety, cost and where the money says it is heading.",
+      "gist": [
+        "Humanoids are shaped like us because the world is built for us, but walking, hands and battery life are still hard.",
+        "Robots learn in simulation, from human drivers and videos, and from big AI models that split thinking slow from moving fast.",
+        "As of Oct 2026 only 13,000 to 18,000 shipped in 2025, mostly from China; real jobs are in factories and warehouses, and homes are still a promise."
+      ],
+      "added": "2026-10-24",
+      "added_at": "2026-10-24T22:01",
+      "tagline": "Controlled falling, fussy hands and chores that still wait.",
+      "pages": [
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p01.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p01-t.webp",
+          "title": "Can a robot do my chores?",
+          "w": 1600,
+          "h": 2886,
+          "kw": "step hook robot chores mo's workshop log humanoid robots work close really question three carry laundry upstairs fold load dishwasher shaped like made shipped worldwide depending counts china one count starting price unitree's confirmed home deliveries find next words first source omdia forbes jan idc unitree online store read oct order page facts card",
+          "takeaway": "13,000 to 18,000 humanoid robots shipped worldwide in 2025 depending on who counts, 87% made in China (Omdia); Unitree's R1 starts at $4,900, and we found no confirmed home deliveries."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p02.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p02-t.webp",
+          "title": "Words to know",
+          "w": 1600,
+          "h": 2408,
+          "kw": "step key words know workshop book humanoid robot head two arms usually legs actuator robot's muscle motor plus gears moves joint dof degree freedom one way move door hinge has teleoperation human drives remotely often simulation video-game world robots practice faster real time reinforcement learning trial error reward success vla model vision-language-action ai sees reads instruction outputs payload weight carry next build shaped like us source agility robotics boston dynamics training hard work figure helix google deepmind gemini jul card",
+          "takeaway": "Key words: humanoid, actuator (motor plus gears), degree of freedom, teleoperation, simulation, reinforcement learning, VLA model and payload."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p03.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p03-t.webp",
+          "title": "Why shaped like a person?",
+          "w": 1600,
+          "h": 2778,
+          "kw": "step problem shaped like person because world built people us stairs mo's door handles shelves human height legs hands fit small footprint keep robot narrow let reach high wheeled robots need wider base one body many jobs sort parts morning move boxes lunch read catch fixed job arm cart usually simpler cheaper next what's inside source agility robotics humanoid figure f.03 arrives bmw jun art generic sketch card",
+          "takeaway": "Robots get human shapes because stairs, handles and shelves are built for people and legs keep a robot narrow; for one fixed job an arm or wheeled cart is usually simpler (our read)."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p04.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p04-t.webp",
+          "title": "What's inside a humanoid",
+          "w": 1600,
+          "h": 2158,
+          "kw": "step works what's inside humanoid generic robot see-through cameras computer battery actuators hands loop see scene picks next move turn joints sensors check happened figure's fast controller repeats times second hard part one falling source boston dynamics atlas product page figure helix art sketch real model card",
+          "takeaway": "A humanoid is cameras, a computer, a battery, actuators and hands in a loop: see, decide, move, check; Figure's fast controller runs it 200 times a second."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p05.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p05-t.webp",
+          "title": "Walking is controlled falling",
+          "w": 1600,
+          "h": 2378,
+          "kw": "step hard parts walking controlled falling part one balance tip forward starts small fall catch swing foot land body keep point zero-moment tipping forces cancel outside robot falls race day beijing humanoids finished half-marathon winner took min fell had three battery swaps next two hands source mit underactuated robotics wired apr art generic sketch card",
+          "takeaway": "Walking is controlled falling: tip, catch, and keep the zero-moment point inside the foot; in Beijing's 2025 half-marathon only 6 of 21 humanoids finished."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p06.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p06-t.webp",
+          "title": "Hands: the hardest few inches",
+          "w": 1600,
+          "h": 2524,
+          "kw": "step hard parts hands hardest inches part two holding egg without crushing bones fingertip sensors tendons hand usable degrees freedom plus skin feels pressure robot lists dof figure adds touch palm cameras still oct musk said optimus's need work next three muscles batteries source biological cybernetics human modelling neo specs introducing verge art generic sketch card",
+          "takeaway": "Your hand has 27 bones and about 20 to 24 usable degrees of freedom; 1X lists 22 per robot hand, Figure 03 adds touch sensors and palm cameras, and Musk says Optimus hands still need work."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p07.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p07-t.webp",
+          "title": "Muscles and batteries",
+          "w": 1600,
+          "h": 2324,
+          "kw": "step hard parts muscles batteries part three strength lasts shift motor gearbox battery cells joint moves spins fast weakly gears trade speed force turns slower stronger robot runtime charge atlas swaps figure wireless charging neo pack next guess chore harder source boston dynamics product page specs company figures card",
+          "takeaway": "Motors spin fast but weakly and gears trade speed for force; Atlas runs about 4 h then swaps its own battery, Figure 03 about 5 h, NEO about 4 h on 842 Wh (company figures)."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p08.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p08-t.webp",
+          "title": "Guess first: chess or laundry?",
+          "w": 1600,
+          "h": 2158,
+          "kw": "step hard parts guess first chess laundry harder robot beating world champion folding mo's t-shirt answer flip phone computer beat skills feel easy us took millions years evolve moravec's paradox hans moravec noticed adult-level thinking tests computers one-year-old's seeing moving cloth changes shape every time two folds start read next ai brains built stuff source ibm deep blue wikipedia card",
+          "takeaway": "Moravec's paradox: a computer beat the chess champion in 1997, but folding a T-shirt is still hard because seeing and moving took millions of years to evolve."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p09.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p09-t.webp",
+          "title": "Robot brains: think slow, act fast",
+          "w": 1600,
+          "h": 2178,
+          "kw": "step works robot brains think slow act fast vla model turns words moves brain job understands scene instruction plan joint speed times second size billion parameters million example says put cup sink finds drives upper-body joints others google deepmind's gemini robotics jul controls whole humanoid nvidia's gr00t n1.6 open trained many makers robots next training data comes source figure helix company figures deepmind nvidia isaac mo's made card",
+          "takeaway": "Figure's Helix splits the brain: a 7-billion-parameter slow brain (7 to 9 Hz) understands the scene and an 80-million-parameter fast brain (200 Hz) moves the joints."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p10.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p10-t.webp",
+          "title": "Four ways robots learn",
+          "w": 1600,
+          "h": 2406,
+          "kw": "step works four ways robots learn video-game practice copying people teleoperation simulation atlas practiced lifting mini-fridge millions hours gpu simulations rewarded success person drives robot recording becomes lesson imitation tesla workers wore five-camera rigs repeated chores hundreds times foundation models pretrain data human video fine-tune job next building source boston dynamics training humanoid hard work business insider nov nvidia isaac gr00t n1.6 art generic sketch card",
+          "takeaway": "Robots learn four ways: simulation plus RL (Atlas, millions of GPU hours), teleoperation, imitation (Tesla's five-camera rigs) and foundation models fine-tuned per job."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p11.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p11-t.webp",
+          "title": "The line-up, as of Oct 2026",
+          "w": 1600,
+          "h": 2732,
+          "kw": "step players line-up oct makes costs robot maker status price optimus tesla us early production outside sales end 20k 30k someday musk figure parts-sorting project bmw's plant published digit agility working customer sites month atlas boston dynamics korea training hyundai real jobs unitree china sale neo norway pre-orders homes apollo apptronik collecting data next actually ships source update techcrunch bmw jun sep report s-4 store order page art generic card",
+          "takeaway": "As of Oct 2026: Optimus in early production, Figure 03 at BMW, Digit at 9 customer sites for about $8,500 a month, Atlas training at Hyundai, Unitree G1 and R1 on sale, NEO on pre-order at $20,000, Apollo 2 collecting data."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p12.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p12-t.webp",
+          "title": "Who ships the most?",
+          "w": 1600,
+          "h": 2512,
+          "kw": "step players ships humanoids shipped one count omdia agibot china unitree ubtech figure us agility tesla counts disagree idc says itself went shows schools data collection guided tours next real jobs robots today source forbes jan humanoid robotics commercialization prospectus cgtn aug card",
+          "takeaway": "Omdia counted 13,317 humanoids shipped in 2025, led by AgiBot (5,168) and Unitree (4,200); US makers had about 150 each, and IDC says over 85% went to shows, schools, data and tours."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p13.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p13-t.webp",
+          "title": "Real work, so far",
+          "w": 1600,
+          "h": 2455,
+          "kw": "step today real work far paid jobs factories warehouses oct working now digit moved totes gxo warehouse accurate task figure helped build bmw cars began parts-sorting project jun company figures small money agility customer sites had million sales next tell demo thing source sep f.03 arrives robot report s-4 art generic sketch card",
+          "takeaway": "Real work so far: Digit moved 100,000 totes at about 98% accuracy, Figure 02 helped build 30,000 BMW cars, yet Agility had just $1.8 million in 2025 sales."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p14.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p14-t.webp",
+          "title": "Demo or the real thing?",
+          "w": 1600,
+          "h": 2884,
+          "kw": "step today demo real thing look behind curtain human inside tesla's event optimus bartenders assisted expert mode neo owners book worker steer through new chores company says stunt figure walked miles treadmill days power cable ask three questions driving video sped often fail lab success stalls next promises arrived source techcrunch oct citing bloomberg heise figure's ceo verge quoting ken goldberg read art generic sketch card",
+          "takeaway": "Demos can hide humans or tricks (Optimus bartenders were human-assisted); ask who is driving, whether the video is sped up and how often it fails."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p15.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p15-t.webp",
+          "title": "Promised vs delivered",
+          "w": 1600,
+          "h": 2456,
+          "kw": "step today promised delivered oct promise happened musk jan several thousand optimus robots built early production began tesla has said many price outside sales end us deliveries neo start found confirmed home delivery hyundai atlas factories training now parts work agility digit safe beside people access next safety decides fast goes source fortune call transcript techcrunch verge order page boston dynamics sep art generic sketch card",
+          "takeaway": "Promises vs delivery: several thousand Optimus robots in 2025 became early production in Oct 2026; NEO home deliveries, Atlas jobs (2028) and Digit 5 (2027) are still ahead."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p16.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p16-t.webp",
+          "title": "Safety and cost",
+          "w": 1600,
+          "h": 2724,
+          "kw": "step what's different safety cost robots still work behind fences heavy fall figure weighs makers add soft covers neo's body padded polymer rulebook yet iso standard legged self-balancing industrial draft oct goldman sachs humanoid build costs fell year renting digit month roughly next money forecasts point source page neo feb robot report agility s-4 art generic sketch card",
+          "takeaway": "A 61 kg robot falling is a real hazard, the ISO 25785-1 safety standard is still a draft, build costs fell to $30,000 to $150,000 (2024) and Digit rents for about $102,000 a year."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p17.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p17-t.webp",
+          "title": "Big money, bigger guesses",
+          "w": 1600,
+          "h": 2486,
+          "kw": "step it's heading big money bigger guesses valuations forecasts much figure valued billion sep apptronik raised million unitree yuan aug ipo price agility digit orders conditions goldman sachs market idc humanoids shipped year musk humanoid robots general biggest product earth claim reality check shipments read next road map source series cgtn motley fool transcript tesla's call oct card",
+          "takeaway": "Figure is valued at $39 billion, Apptronik raised over $935 million and forecasts reach 510,000 humanoids a year by 2030, while 2025 shipments were 13,000 to 18,000."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p18.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p18-t.webp",
+          "title": "The road map",
+          "w": 1600,
+          "h": 2718,
+          "kw": "step it's heading road map companies say comes next optimus early production figure bmw atlas training digit access outside musk claims week year end starts parts work hyundai's georgia plant 000-a-year robot factory planned moves assembly factories first repetitive fenced measurable jobs come homes kids pets later read mo's verdict source tesla update motley fool transcript oct techcrunch agility sep boston dynamics hyundai motor group dates company plans art generic sketch card",
+          "takeaway": "Company road maps: Optimus and Figure in 2026, Digit 5 and outside Optimus sales in 2027, Atlas parts work at Hyundai in 2028 and assembly in 2030; factories first, homes later (our read)."
+        },
+        {
+          "file": "assets/pulse/how-humanoid-robots-work/p19.webp",
+          "thumb": "assets/pulse/how-humanoid-robots-work/p19-t.webp",
+          "title": "Mo's verdict",
+          "w": 1600,
+          "h": 2728,
+          "kw": "step it's heading mo's verdict robot chores yet far walk carry sort work learn sims millions hours humanoid fold laundry home full shift one battery finished safety rulebook big question robots data fast enough earn price read made boxes basket socks dishes still mine i'm folding source agility boston dynamics unitree store figure iso cited cards card",
+          "takeaway": "So far: humanoids walk, carry and sort at work and start at $4,900; not yet: laundry at home, a full shift on one battery or a finished safety standard."
+        }
+      ],
+      "recap": [
+        "Problem: a world built for humans needs robots that can walk, reach and grip like us.",
+        "How: actuators, batteries and cameras in a fast loop, with AI brains trained by simulation, teleoperation and imitation.",
+        "Different: China ships the most; US makers have big valuations, real factory pilots and many demos.",
+        "Next: factory work first (Atlas 2028, Digit 5 2027, Optimus sales from end of 2027), homes later, with safety rules still in draft."
+      ],
+      "recap_pages": 19,
+      "sources": [
+        {
+          "title": "Omdia via Forbes – Top 10 humanoid robot companies by shipments revealed",
+          "url": "https://www.forbes.com/sites/johnkoetsier/2026/01/09/top-10-humanoid-robot-companies-by-shipments-revealed/"
+        },
+        {
+          "title": "IDC – Humanoid robotics commercialization trends 2026",
+          "url": "https://www.idc.com/resource-center/blog/humanoid-robotics-commercialization-2026/"
+        },
+        {
+          "title": "TechCrunch – Tesla starts Optimus robot production in California as profit falls 43%",
+          "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/"
+        },
+        {
+          "title": "The Verge – Just because Tesla's Optimus is in production doesn't mean it's actually ready",
+          "url": "https://www.theverge.com/tech/1016492/tesla-optimus-robots-production-musk-q3-earnings"
+        },
+        {
+          "title": "Figure – Helix, a vision-language-action model for generalist humanoid control",
+          "url": "https://www.figure.ai/news/helix"
+        },
+        {
+          "title": "Figure – Introducing Figure 03",
+          "url": "https://www.figure.ai/news/introducing-figure-03"
+        },
+        {
+          "title": "Agility Robotics – Agility unveils Digit 5, built for cooperatively safe work at scale",
+          "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+        },
+        {
+          "title": "The Robot Report – Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
+          "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
+        },
+        {
+          "title": "Boston Dynamics – Training a humanoid robot for hard work, blog",
+          "url": "https://bostondynamics.com/blog/training-a-humanoid-robot-for-hard-work/"
+        },
+        {
+          "title": "Hyundai Motor Group – Inside the robotics race, Atlas learns the real world",
+          "url": "https://www.hyundaimotorgroup.com/en/story/hyundai-motor-group-bloomberg-atlas-boston-dynamics-rmac"
+        },
+        {
+          "title": "1X – NEO home robot, specs and order page",
+          "url": "https://www.1x.tech/neo"
+        },
+        {
+          "title": "Unitree – Official online store, humanoid prices",
+          "url": "https://shop.unitree.com/"
+        },
+        {
+          "title": "Google DeepMind – Gemini Robotics 2 brings whole-body intelligence to robots",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+        },
+        {
+          "title": "Goldman Sachs – The global market for humanoid robots could reach $38 billion by 2035",
+          "url": "https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035"
+        }
+      ]
     }
   ],
   "moved": {
