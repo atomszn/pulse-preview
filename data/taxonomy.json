@@ -284,7 +284,23 @@
         "circle",
         "crypto dollar",
         "digital dollar",
-        "genius act"
+        "genius act",
+        "link balance",
+        "stripe link",
+        "stripe",
+        "agent spending",
+        "agent wallet",
+        "tempo",
+        "instinct",
+        "custodial",
+        "non-custodial",
+        "self-custody",
+        "private key",
+        "privy",
+        "bridge stripe",
+        "onramp",
+        "t-bills",
+        "treasury bills"
       ]
     },
     "mortgage-rates": {
