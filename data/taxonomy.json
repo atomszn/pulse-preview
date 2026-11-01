@@ -844,7 +844,16 @@
       "pairs": [
         "what-powers-ai",
         "nuclear-for-ai"
-      ]
+      ],
+      "cover": {
+        "page": 1,
+        "box": [
+          130,
+          650,
+          1510,
+          1685
+        ]
+      }
     }
   }
 }
